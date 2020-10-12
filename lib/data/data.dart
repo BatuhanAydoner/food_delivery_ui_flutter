@@ -4,21 +4,17 @@ import 'package:food_delivery_ui_flutter/models/restaurant.dart';
 import 'package:food_delivery_ui_flutter/models/user.dart';
 
 final _burrito =
-    Food(imageUrl: 'assets/images/burrito.jpg', name: 'Burrito', price: 9.99);
-final _steak =
-    Food(imageUrl: 'assets/images/steak.jpg', name: 'Steak', price: 19.99);
-final _pasta =
-    Food(imageUrl: 'assets/images/pasta.jpg', name: 'Pasta', price: 9.99);
-final _ramen =
-    Food(imageUrl: 'assets/images/ramen.jpg', name: 'Ramen', price: 20.99);
+    Food(imageUrl: 'images/burrito.jpg', name: 'Burrito', price: 9.99);
+final _steak = Food(imageUrl: 'images/steak.jpg', name: 'Steak', price: 19.99);
+final _pasta = Food(imageUrl: 'images/pasta.jpg', name: 'Pasta', price: 9.99);
+final _ramen = Food(imageUrl: 'images/ramen.jpg', name: 'Ramen', price: 20.99);
 final _pancakes =
-    Food(imageUrl: 'assets/images/pancakes.jpg', name: 'Pancakes', price: 9.99);
+    Food(imageUrl: 'images/pancakes.jpg', name: 'Pancakes', price: 9.99);
 final _burger =
-    Food(imageUrl: 'assets/images/burger.jpg', name: 'Burger', price: 19.99);
-final _pizza =
-    Food(imageUrl: 'assets/images/pizza.jpg', name: 'Pizza', price: 9.99);
-final _salmon = Food(
-    imageUrl: 'assets/images/salmon.jpg', name: 'Salmon Salad', price: 9.99);
+    Food(imageUrl: 'images/burger.jpg', name: 'Burger', price: 19.99);
+final _pizza = Food(imageUrl: 'images/pizza.jpg', name: 'Pizza', price: 9.99);
+final _salmon =
+    Food(imageUrl: 'images/salmon.jpg', name: 'Salmon Salad', price: 9.99);
 
 // Restaurants
 final _restaurant0 = Restaurant(
