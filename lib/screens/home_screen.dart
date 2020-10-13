@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: true,
         leading: IconButton(
           icon: Icon(
-            Icons.account_circle,
+            Icons.person,
           ),
           iconSize: 30.0,
           onPressed: () {},
@@ -27,15 +27,25 @@ class _HomeScreenState extends State<HomeScreen> {
         actions: [
           FlatButton(
             child: Center(
-                child: Text(
-              "Cart (${currentUser.cart.length})",
-              style: TextStyle(color: Colors.white, fontSize: 20.0),
+                child: Row(
+              children: [
+                Icon(
+                  Icons.shopping_cart,
+                  size: 30.0,
+                  color: Colors.white,
+                ),
+                Text(
+                  "${currentUser.cart.length}",
+                  style: TextStyle(color: Colors.white, fontSize: 20.0),
+                ),
+              ],
             )),
             onPressed: () {},
           )
         ],
       ),
       body: ListView(
+        physics: BouncingScrollPhysics(),
         children: [
           Padding(
             padding: const EdgeInsets.all(10.0),
