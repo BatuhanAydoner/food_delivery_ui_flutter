@@ -1,6 +1,8 @@
-# food_delivery_ui_flutter
+# Food Delivery UI Flutter
 
-A new Flutter application.
+About food delivery UI example.
+
+<img src="https://github.com/BatuhanAydonerDev/food_delivery_ui_flutter/blob/master/app_gif.gif?raw=true" alt="Food Delivery UI" width="350"/>
 
 ## Getting Started
 
